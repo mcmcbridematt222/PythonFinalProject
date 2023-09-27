@@ -1,1 +1,6 @@
+import yfinance as yf
 
+tesla = yf.ticker("TSLA")
+tesla_share_price_data = tesla.history(period="max")
+tesla_revenue.dropna(inplace=true)
+tesla_revenue=tesla_revenue[tesla_revenue['Revenue'] !=""]
